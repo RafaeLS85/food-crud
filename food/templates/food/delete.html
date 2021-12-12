@@ -1,0 +1,5 @@
+<form method="POST">
+    {% csrf_token %}
+    <h3>Are you sure you want to delete {{ food.name }} ? </h3>
+    <button type="submit">Ok</button>
+</form>
